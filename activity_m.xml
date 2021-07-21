@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M">
+
+    <ImageView
+        android:id="@+id/WhatsApp"
+        android:layout_width="83dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106"
+        app:srcCompat="@drawable/walogo" />
+
+    <ImageView
+        android:id="@+id/InstaGram"
+        android:layout_width="61dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807"
+        app:srcCompat="@drawable/iglogo" />
+
+    <TextView
+        android:id="@+id/GMAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alzjaime@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <ImageView
+        android:id="@+id/FaceBook"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601"
+        app:srcCompat="@drawable/fblogo" />
+
+    <ImageView
+        android:id="@+id/GMail"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345"
+        app:srcCompat="@drawable/gmlogo" />
+
+    <TextView
+        android:id="@+id/WANumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(449) 453-17-96"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/FBPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="facebook.comAlzJaime"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+        android:id="@+id/IGPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(@)AlzJaimeapp"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
