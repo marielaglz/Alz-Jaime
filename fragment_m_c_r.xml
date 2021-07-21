@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MCR">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicamantos con receta"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Creceta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="amphetamine / dextroamphetamine \n
+amphetamine / dextroamphetamine XR \n
+clonidine HCl \n
+dexmethylphenidate HCl \n
+dexmethylphenidate HCl ER \n
+dextroamphetamine \n
+guanfacine \n
+methamphetamine \n
+methylphenidate/ER/ER 24 HR \n
+modafinil \n
+azelastine HCl \n
+azelastine nasal \n
+budesonide \n
+clemastine fumarate \n
+cyproheptadine \n
+cyproheptadine HCl \n
+epinastine \n
+epinephrine (QL) \n
+flunisolide nasal \n
+fluticasone nasal \n
+hydroxyzine \n
+ipratropium nasal \n
+montelukast \n
+olopatadine nasal spray \n
+triamcinolone \n
+acetonide nasal"
+        android:textColor="@color/black"
+        android:textSize="14dp"/>
+
+</RelativeLayout>
